@@ -1,26 +1,3 @@
-//---------------------------------------------------------------------------------------------------
-// Assignment 3
-
-
-// Written by: Nguyen Le 40272922
-// For COMP 248 Section H – Fall 2023
-// ---------------------------------------------------------------------------------------------------
-// A program that helps to decide the best 3 ranking skier of a ski competition.
-// The program let the prompt the the name and time. It can goes up to a total of 20 skiers. 
-// The only positions that is updated are the first 3.
-//-----------------------------------------------------------------------------------------------------
-// variable firstPositionIndex contains the index of the skier with the lowest skiing time (integer)
-// variable secondPositionIndex contains the index of the skier with the second lowest skiing time (integer)
-// variable thirdPositionIndex contains the index of the skier with the third lowest skiing time (integer)
-// the position index variables starts at -1 to describe to be not part of the list at the beginning
-// variable skierTime is a enmpty list that can contain 20 doubles
-// variable skierName is an empty list that can contain 20 strings
-//variable stay1 is a return value of true use to break or continue a loop
-// index is an integer that is used to be incremented in a loop , can be also called count of number of skier 
-// name = skier name prompt by user
-// time = is skier time prompt by user
-// variable answer is an answer that the user respond to continue or no in string 
-//-----------------------------------------------------------------------------------------------------
 import java.util.Scanner;
 public class A3_Q2 {
 //The logic of the program consist the usage of an array when the user prompt skiers. The skier prompt goes
